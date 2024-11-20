@@ -18,7 +18,8 @@ button {
 header {
     display: flex;
     justify-content: space-between;
-    margin-top: -10px;
+    margin-top: -50px;
+    margin-bottom: 50px;
 }
 .logo {
     margin-right: auto;
@@ -30,14 +31,29 @@ header {
     flex: 1;
     display: flex;
     justify-content: flex-end;
-    gap: 10px;
-}
-.heading {
-
+    gap: 20px;
 }
 .dark-background {
     background-color: #1f2937;
     width: auto;
     margin: -8px -8px 0px -8px;
-    padding: 30px;
+    padding: 90px 90px 90px 90px;
+}
+.head-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 10%;
+}
+.placeholder,
+.container {
+    flex: 1;
+    width: 35%;
+}
+.placeholder {
+    width: 40%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #989898;
 }
