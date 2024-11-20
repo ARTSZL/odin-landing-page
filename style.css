@@ -21,6 +21,11 @@ header {
     margin-top: -50px;
     margin-bottom: 50px;
 }
+button {
+    padding: 10px 30px 10px 30px;
+    border-radius: 8px;
+    border-color: transparent;
+}
 .logo {
     margin-right: auto;
     font-size: 24px;
@@ -44,16 +49,16 @@ header {
     justify-content: space-between;
     gap: 10%;
 }
-.placeholder,
 .container {
+    width: 50%;
     flex: 1;
-    width: 35%;
 }
 .placeholder {
-    width: 40%;
-    height: 300px;
+    width: 55%;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #989898;
+    flex: 2;
 }
