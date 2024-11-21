@@ -97,3 +97,32 @@ h2 {
     border-radius: 10px;
     height: 200px;
 }
+.section3 {
+    background-color: #e5e7eb;
+    width: auto;
+    padding: 90px 90px 90px 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+}
+.section3 div {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+}
+.section3 p {
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 200;
+}
+.section3 .author {
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    margin-left: auto;
+    width: auto;
+}
