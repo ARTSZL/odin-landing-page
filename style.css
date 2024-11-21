@@ -17,17 +17,16 @@ p {
 button {
     background-color: #3882f6;
     color: #f9faf8;
+    padding: 10px 30px 10px 30px;
+    border-radius: 8px;
+    border-color: transparent;
+    font-size: 18px;
 }
 header {
     display: flex;
     justify-content: space-between;
     margin-top: -60px;
     margin-bottom: 50px;
-}
-button {
-    padding: 10px 30px 10px 30px;
-    border-radius: 8px;
-    border-color: transparent;
 }
 .logo {
     margin-right: auto;
@@ -125,4 +124,28 @@ h2 {
     font-weight: 600;
     margin-left: auto;
     width: auto;
+}
+.section4 {
+    width: auto;
+    margin: 0px -8px 0px -8px;
+    padding: 90px 90px 90px 90px;
+}
+.CTA {
+    background-color: #3882f6;
+    border-radius: 10px;
+    border: transparent;
+    padding: 50px 150px 50px 150px;
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    flex: 1;
+}
+h3 {
+    color: #f9faf8;
+    font-size: 24px;
+    margin: 0px;
+}
+.CTA button {
+    border: 2px solid #f9faf8;
+    border-radius: 8px;
 }
